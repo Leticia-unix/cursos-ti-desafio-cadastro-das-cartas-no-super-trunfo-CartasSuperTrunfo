@@ -1,0 +1,93 @@
+#include <stdio.h>
+int main (){
+
+int populacao, pontu ;
+char estado[4];
+char codigo[8];
+char  nocida[6];
+float area;
+float pib;
+
+
+//CARTA 2
+
+int populacao2, pontu2 ;
+char estado2[4];
+char codigo2[10];
+char  nocida2[6];
+float area2;
+float pib2;
+float dens2;
+float pibcar2;
+
+
+
+
+
+printf("Digite o estado da carta 1: \n  ");
+scanf("%s" , estado);
+
+printf("Código da carta 1: \n");
+scanf("%s", codigo);
+
+printf("Nome da cidade da carta 1: \n");
+scanf("%s", nocida);
+
+printf("Qual é a população da carta 1: \n");
+scanf("%d" , &populacao);
+
+printf("Qual é a área da carta 1: \n");
+scanf("%f" , &area);
+
+printf("Qual é o PIB da carta 1: \n");
+scanf("%f" , &pib);
+
+printf("Quantos pontos turisticos da carta 1: \n");
+scanf("%d" , &pontu);
+
+
+//DADOS DA CARTA 2
+
+printf("Digite o estado da carta 2: \n  ");
+scanf("%s" , estado2);
+
+printf("Código da carta 2:  \n");
+scanf("%s", codigo2);
+
+printf("Nome da cidade da carta 2: \n");
+scanf("%s", nocida2);
+
+printf("Qual é a população da carta 2: \n");
+scanf("%d" , &populacao2);
+
+printf("Qual é a área da carta 2: \n");
+scanf("%f" , &area2);
+
+printf("Qual é o PIB da carta 2: \n");
+scanf("%f" , &pib2);
+
+printf("Quantos pontos turisticos da carta 2: \n");
+scanf("%d" , &pontu2);
+
+
+
+printf("Carta 1\n");
+printf("Estado: %s \n", estado);
+printf("Código da carta %s \n", codigo);
+printf("nome da cidade: %s \n" , nocida);
+printf("População: %d \n" , populacao);
+printf("Área: %.4f \n", area);
+printf("PIB: %.4f \n",  pib);
+printf("Pontos turísticos: %d \n" , pontu);
+
+printf("Carta 2 \n");
+printf("Estado: %s \n", estado2);
+printf("Código da carta: %s \n", codigo2);
+printf("nome da cidade: %s \n" , nocida2);
+printf("População: %d \n" , populacao2);
+printf("Área: %.2f Km²\n", area2);
+printf("PIB: %.2f bilhões de reais\n",  pib2);
+printf("Pontos turísticos: %d \n" , pontu2);
+
+    return 0;
+}
